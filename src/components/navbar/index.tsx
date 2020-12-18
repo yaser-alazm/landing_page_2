@@ -113,7 +113,7 @@ class NavBar extends React.Component<Props, State> {
                             </NavItem>
                         </Nav>
 
-						<ChatLink hasIcon />
+						{/* <ChatLink hasIcon /> */}
                     </Collapse>
                 </Container>
             </Navbar>
