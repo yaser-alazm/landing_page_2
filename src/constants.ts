@@ -1,7 +1,7 @@
 // API config
 import { BACKEND_URL } from './settings';
-export const PRICES_URL = `${BACKEND_URL}/affiliate/prices/`;
-export const LOCATIONS_URL = `${BACKEND_URL}/datacenters/locations/`;
+export const PRICES_URL = `${BACKEND_URL}/affiliate/prices/?fbclid=IwAR3lOVw_8dm5YrqFONf9mM0IyiWpK_-SJDiAs_ir3CwmJyM49TzYwOnJwko`;
+export const LOCATIONS_URL = `${BACKEND_URL}/datacenters/locations/?fbclid=IwAR1t4w5NeCqDJLRJhcnbGB_Lq5OLD_VVQLbyIvsC8zbxznSNrqMF_MWqvH8`;
 export const SUPPORT_URL = `${BACKEND_URL}/support/`;
 
 // App routes
