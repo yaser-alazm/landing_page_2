@@ -67,7 +67,9 @@ class Reviews extends React.Component<Props, State> {
 					<Preamble light title={SITE_NAME}>
 						We offer highly secure, (Dedicated or Shared) SOCKSv5 and Proxies.
 					</Preamble>
-
+					<Row>
+						<img src={footerImage} alt="" className="footer__logo"/>
+					</Row>
 				</Container>
 			</footer>
 		);
