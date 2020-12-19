@@ -19,6 +19,9 @@ import '../../styles/components/pricing.scss';
 import 'rc-slider/assets/index.css';
 import 'rc-tooltip/assets/bootstrap.css';
 
+// SVG
+import {faCircleNotch} from '@fortawesome/free-solid-svg-icons';
+
 // Constants
 import {
 	BILLING_CYCLES,
@@ -140,7 +143,7 @@ class Pricing extends React.Component<Props, State> {
 		const multiplier = selectedTag ? parseInt(selectedTag.multiplier) : 1;
 		const selectedProductBasePrice = prices[selectedProductKey] && prices[selectedProductKey].price * multiplier || 0;
 
-		return parseFloat(selectedProductBasePrice).toFixed(2);
+		return parseFloat(selectedProductBasePrice);
 	}
 
 	get quantityDiscount(): number {
