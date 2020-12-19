@@ -67,76 +67,7 @@ class Reviews extends React.Component<Props, State> {
 					<Preamble light title={SITE_NAME}>
 						We offer highly secure, (Dedicated or Shared) SOCKSv5 and Proxies.
 					</Preamble>
-					<Row>
-						<FooterColumn
-							title="Our products"
-							links={[
-								{
-									label: 'HTTP Proxy',
-									url: HTTPS_PROXY_ROUTE
-								}, {
-									label: 'SOCKSv5 Proxy',
-									url: SOCKS_PROXY_ROUTE
-								}, {
-									label: 'Dedicated Proxy',
-									url: DEDICATED_PROXY_ROUTE
-								}, {
-									label: 'Shared Proxy',
-									url: SHARED_PROXY_ROUTE
-								}
-							]}
-						/>
-						<FooterColumn
-							title="Resources"
-							links={[{
-								label: 'Pricing',
-								url: PRICING_ROUTE
-							}, {
-								label: 'Privacy policy',
-								url: PRIVACY_ROUTE
-							}, {
-								label: 'Terms of Service',
-								url: TOS_ROUTE
-							}, {
-								label: 'Refunds',
-								url: REFUNDS_ROUTE
-							}, {
-								label: 'Restrictions',
-								url: REFUNDS_ROUTE
-							}, {
-								label: 'Members',
-								url: MEMBERS_URL,
-								native: true
-							}
-							, {
-								label: 'Sitemap',
-								url: SITEMAP_ROUTE,
-								native: true
-							}
-							]}
-						/>
-						<FooterColumn title="Support">
-							<ul>
-								<li className="link">
-									{
-										main ? (
-											<ScrollLink to={SCROLL_SUPPORT} smooth offset={-85}>
-												Contact Us
-											</ScrollLink>
-											) : (
-											<Link to="/" onClick={this.handleContactClick}>
-												Contact Us
-											</Link>
-										)
-									}
-								</li>
-								<li className="link">
-									<ChatLink/>
-								</li>
-							</ul>
-						</FooterColumn>
-						<img src={footerImage} alt="" className="footer__logo"/>
-					</Row>
+
 				</Container>
 			</footer>
 		);
