@@ -41,7 +41,7 @@ const MainHero = ({ minPrice }: Props) => (
 				</p>
 				<Row>
 					<Col>
-						<iframe width="500" height="281" src="https://www.youtube.com/watch?v=CmvXxNeu1_c&feature=youtu.be" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen ng-show="showvideo"></iframe>
+						<iframe width="500" height="281" src="https://www.youtube.com/embed/CmvXxNeu1_c&feature=youtu.be" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen ng-show="showvideo"></iframe>
 					</Col>
 				</Row>
 				<a
